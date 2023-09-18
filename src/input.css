@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+   
+
+  body{
+    font-family: 'IBM Plex Sans', sans-serif;
+
+  }
+
+h1 ,h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+   
+    
+}
+
+.text:hover{
+  animation: up .5s linear infinite;
+}
+@keyframes up {
+  100%{
+    transform: translateY(-10px);
+  }
+  
+}
+.box{
+  transition: .6s;
+}
+.box:hover{
+  transform: translateY(-10px);
+
+}
